@@ -1,10 +1,9 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     setTimeout(function() {
-//       document.getElementById("preloader").style.display = "none";
-//     }, 3000);
-//   });
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      document.getElementById("preloader").style.display = "none";
+    }, 3000);
+  });
   
-// scroll to top
 
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
