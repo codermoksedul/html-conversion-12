@@ -1,0 +1,22 @@
+{
+  "name": "html-conversion-11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dmoksedul/html-conversion-11.git",
+  "author": "dmoksedul <dmoksedulislam@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "tailwindcss -i ./css/style.css -o ./css/style.min.css --minify",
+    "build-vite": "vite build"
+  },
+  "dependencies": {
+    "gitignore": "^0.7.0"
+  }
+}
